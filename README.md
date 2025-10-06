@@ -1,4 +1,4 @@
-# Modminecraft
+# Modminecraft tree harvest
 import { world, system, BlockLocation, ItemStack } from "@minecraft/server";
 
 world.afterEvents.playerBreakBlock.subscribe(event => {
